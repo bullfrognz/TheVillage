@@ -1,0 +1,88 @@
+# Blender3D MTL File: 
+# Material Count: 8
+newmtl ns649_Material_003_60_panneau_col.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd panneau_col.jpg
+
+
+newmtl material_324_effect_W_WoodRough.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd WoodRough.jpg
+
+
+newmtl material_565_effect_S_SideWalls.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd SideWalls.jpg
+
+
+newmtl Windows
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.562196 0.604862
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.100000
+illum 2
+
+
+newmtl material_336_effect
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+
+
+newmtl material_318_effect_R_RooftilesWood.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd RooftilesWood.jpg
+
+
+newmtl material_571_effect_W_WoodRough.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd WoodRough.jpg
+
+
+newmtl material_306_effect_W_WoodPlanksBare.jpg
+Ns 45.098039
+Ka 0.000000 0.000000 0.000000
+Kd 0.376320 0.376320 0.376320
+Ks 0.112500 0.112500 0.112500
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd WoodPlanksBare.jpg
+
+

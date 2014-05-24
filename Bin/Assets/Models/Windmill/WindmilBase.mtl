@@ -1,0 +1,13 @@
+# Blender3D MTL File: 
+# Material Count: 1
+newmtl WindMill_MAT_windmill_windmill_diffuse.jpg
+Ns 3.921569
+Ka 0.000000 0.000000 0.000000
+Kd 0.205804 0.205804 0.205804
+Ks 0.045000 0.045000 0.045000
+Ni 1.500000
+d 0.000000
+illum 2
+map_Kd WindmillTexture.jpg
+
+

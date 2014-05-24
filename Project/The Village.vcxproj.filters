@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{99ff3069-9c75-4fb2-bfbe-0a72998a525f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Applications">
+      <UniqueIdentifier>{c5c7c66a-b013-40c9-8820-4d87014ccef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{a413ba4f-7b06-4b55-8fb7-ab39f79178c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{f2f3e406-5caa-4bed-95ea-ab0808519541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Clock">
+      <UniqueIdentifier>{abf9161a-9dc0-44ba-8028-8a7af46373aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{3992c5fe-4a90-4ad3-86b6-0d7b3ce1db45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Window">
+      <UniqueIdentifier>{3043cf71-c0b8-4c4e-b00a-b6cd7a7680a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{e6d82703-8107-4d0c-bcdd-ac289212a846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{88d6c77c-9a16-43e7-9ec8-7733e6a1a1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Renderer">
+      <UniqueIdentifier>{af793a0a-3b9e-415b-ba1d-9924cdaa4904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Dialog">
+      <UniqueIdentifier>{e80a5e06-415e-4d8b-b8f6-551a30c4be3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Dialog\Dialog">
+      <UniqueIdentifier>{f2a2f239-b3ce-4635-a657-b1870a6bf787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Dialog\Dialog Msg Target">
+      <UniqueIdentifier>{d6b10906-af5d-4ec6-ab35-90c06f40264b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Str Utilities">
+      <UniqueIdentifier>{e9402706-7396-423e-a50d-5350be7c118b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{baa0bdb8-59bc-428c-854c-72c41e305fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Vertex">
+      <UniqueIdentifier>{bb98e909-888c-45d5-b4ee-7803efe2298a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Effect">
+      <UniqueIdentifier>{cd5e9224-aa08-4ba3-b73d-d7b2bd2d625b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Camera">
+      <UniqueIdentifier>{a8e2d685-b11d-4ad1-bc19-60e1a91222c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Renderer\D10 Renderer">
+      <UniqueIdentifier>{cb28805a-8667-4952-934d-06b5817f0db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Mouse">
+      <UniqueIdentifier>{173395ea-a674-4a0e-b3c5-38df4e0fa393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Keyboard">
+      <UniqueIdentifier>{2fdbd522-ae18-4415-9f51-023f44b63181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Messenger">
+      <UniqueIdentifier>{a6772448-c1b1-4f43-8b37-ceb35dbbac78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Observer">
+      <UniqueIdentifier>{bbd1140e-d7b8-423e-9857-58267762a7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Light">
+      <UniqueIdentifier>{b935547e-ac0b-4da7-b721-7efcc481aaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Effect\D10 Effect">
+      <UniqueIdentifier>{c35a6d65-7c4f-433b-bc97-15d84207dbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Math Utilities">
+      <UniqueIdentifier>{5c88d8ec-f3ae-4512-96f9-a08257007f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{c5f78143-7eaa-451e-a323-171d26d2e9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game">
+      <UniqueIdentifier>{9a08cde6-9f7a-4ed3-a45a-73370d3c9f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library">
+      <UniqueIdentifier>{8f9f1405-30b2-400b-be3f-4103d99c7bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Terrain">
+      <UniqueIdentifier>{4c78f5bc-f092-4aa7-9864-5c7a140927fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Terrain\Segment">
+      <UniqueIdentifier>{6842a692-7f79-4cae-9958-6e8e6c4d2a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Quad Tree">
+      <UniqueIdentifier>{3a263184-f61b-4e0e-a35a-da83781dcd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\AABB">
+      <UniqueIdentifier>{47f4b6c3-4706-4e11-88f3-9d499ee19304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Colour">
+      <UniqueIdentifier>{7c087ff5-1eaf-4ec2-87d1-3055aa4502c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector4">
+      <UniqueIdentifier>{d75a56dc-8d72-4e63-8c13-2212904a76fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector2">
+      <UniqueIdentifier>{e1c8a036-2b70-4de2-8c06-5a19c3a0f530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector3">
+      <UniqueIdentifier>{8ea6ccbc-a151-4bc3-9efb-9e32f7493fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Proj Matrix">
+      <UniqueIdentifier>{8ad59c1b-89cd-4c4d-adac-b61e28040d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\World Matrix">
+      <UniqueIdentifier>{9c78e5b9-4af7-4e3a-a4ff-3fd6c87f46ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\View Matrix">
+      <UniqueIdentifier>{8db46caf-c7c5-4b06-be8c-e684264eb216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Text">
+      <UniqueIdentifier>{be0e2abf-ed17-48ac-b6ca-b7f5657318f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Text\Text">
+      <UniqueIdentifier>{9091aa53-351e-4164-a4de-5f9ccad3f010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Text\D10 Text">
+      <UniqueIdentifier>{fad32e25-be58-42f5-98f2-fb2faf789d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Mouse\Win Mouse">
+      <UniqueIdentifier>{30e3f4c6-4ff3-4821-b3de-3410329bef17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Mouse\Mouse">
+      <UniqueIdentifier>{67ec969e-3548-487f-9852-eda3b997db00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Keyboard\Win Keyboard">
+      <UniqueIdentifier>{9f0f6dc1-9e94-440f-840d-fc81058c3d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Keyboard\Keyboard">
+      <UniqueIdentifier>{49c6452a-ba97-458c-9f15-c45af81276d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect Files">
+      <UniqueIdentifier>{1979d9f9-4250-4bfe-a7f7-221b49f3b58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Plane">
+      <UniqueIdentifier>{da81a0e8-7f95-47c3-94f6-2046bfb085ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\D10 Convert">
+      <UniqueIdentifier>{36520c9c-98dd-46e2-b88d-a1f3d7b60833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\File">
+      <UniqueIdentifier>{f1920364-3092-4567-ae8b-445984cf7e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Terrain\Terrain Vertex">
+      <UniqueIdentifier>{3dc3cab1-0d3e-4ec5-a25d-9fcbd4429a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Model">
+      <UniqueIdentifier>{c8b03aa2-3815-4451-8f43-a57974f1d9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Material">
+      <UniqueIdentifier>{c464607d-747d-45f7-bdc8-9efd7863c90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Texture UV">
+      <UniqueIdentifier>{7a3ada38-39eb-445d-958b-761155257a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{c0bf9c5f-5475-4ddc-b658-f7c6969ed4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Building">
+      <UniqueIdentifier>{c978c3db-69dd-46ff-a9a0-cdb3dfb4ade7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Skybox">
+      <UniqueIdentifier>{6accce42-613d-4dde-af61-dcd6efd5e990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Day Night Cycle">
+      <UniqueIdentifier>{1fd864d8-d311-460f-a076-7314761668b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Object">
+      <UniqueIdentifier>{7a8428e2-a8e4-42a7-843b-abd9345af4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Raw Image">
+      <UniqueIdentifier>{b18b4c8e-b48c-4426-98f9-58696cf550b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Windmill">
+      <UniqueIdentifier>{19e8d10a-57a4-4fa9-ac4a-a74e10a5c51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Village">
+      <UniqueIdentifier>{4b26f5be-c84c-4c7a-9ffc-93381a429a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\FP Camera">
+      <UniqueIdentifier>{b30c5c7c-9be3-45bf-8cd1-b701bf0d0b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Bone">
+      <UniqueIdentifier>{ad06a2bc-60b1-40c5-bd3e-72f991ae7a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game\Library\Water">
+      <UniqueIdentifier>{e46c411d-66c1-4bd5-afda-732ab2030f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Entity">
+      <UniqueIdentifier>{41bd390a-511e-4525-bf9f-e0ce0480f692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Renderer\Renderer">
+      <UniqueIdentifier>{03d467f6-6c76-4d55-98ff-175b630a6315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect Files\Helpers">
+      <UniqueIdentifier>{d4d416a5-57ed-4398-91da-c8ff2a780326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer">
+      <UniqueIdentifier>{c71db395-fcbc-42bf-9c72-064fa70e62f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Index Buffer">
+      <UniqueIdentifier>{9d72d74a-f872-4b58-903e-0e04494fdf24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Index Buffer\Index Buffer">
+      <UniqueIdentifier>{689b8673-971e-47d5-9ffe-11ad50edc1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Index Buffer\D10 Index Buffer">
+      <UniqueIdentifier>{6f51f20f-781d-4c36-962b-a78e9a6694c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Index Buffer\D9 Index Buffer">
+      <UniqueIdentifier>{d3e617f4-1b9e-4383-bc9a-25633f511c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Vertex Buffer">
+      <UniqueIdentifier>{0991f961-5675-4516-9886-3188a2db6fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Vertex Buffer\Vertex Buffer">
+      <UniqueIdentifier>{43c24f9e-37ff-4394-91be-fc405da5f863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Vertex Buffer\D10 Vertex Buffer">
+      <UniqueIdentifier>{55cf429d-fdea-4b7e-9b59-11fa8b376402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Vertex Buffer\D9 Vertex Buffer">
+      <UniqueIdentifier>{b9bed213-41c6-4085-ae50-d776f2ad20f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Texture">
+      <UniqueIdentifier>{61e1145f-a583-4fc6-927a-75018ca8f6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer\Texture\D10 Texture">
+      <UniqueIdentifier>{6adbe023-ad04-4b2e-8b9b-1c3c04f8b37a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines\Macros.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\DataTypes.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Application.h">
+      <Filter>Framework\Applications</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Clock.h">
+      <Filter>Framework\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Math\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ViewMatrix.h">
+      <Filter>Math\View Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\WorldMatrix.h">
+      <Filter>Math\World Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Renderer.h">
+      <Filter>Framework\Renderer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Window.h">
+      <Filter>Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Dialog.h">
+      <Filter>Framework\Dialog\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DialogMsgTarget.h">
+      <Filter>Framework\Dialog\Dialog Msg Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\IndexBuffer.h">
+      <Filter>Framework\Buffer\Index Buffer\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\VertexBuffer.h">
+      <Filter>Framework\Buffer\Vertex Buffer\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Game.h">
+      <Filter>Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\StrUtilities.h">
+      <Filter>Utilities\Str Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Effect.h">
+      <Filter>Framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Observer.h">
+      <Filter>Framework\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Messenger.h">
+      <Filter>Utilities\Messenger</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Math\Vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Light.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Colour.h">
+      <Filter>Math\Colour</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Terrain.h">
+      <Filter>Scenes\Game\Library\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Texture.h">
+      <Filter>Framework\Buffer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10Effect.h">
+      <Filter>Framework\Effect\D10 Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10IndexBuffer.h">
+      <Filter>Framework\Buffer\Index Buffer\D10 Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10VertexBuffer.h">
+      <Filter>Framework\Buffer\Vertex Buffer\D10 Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10Texture.h">
+      <Filter>Framework\Buffer\Texture\D10 Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10Renderer.h">
+      <Filter>Framework\Renderer\D10 Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MathUtilities.h">
+      <Filter>Utilities\Math Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\Math.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ProjMatrix.h">
+      <Filter>Math\Proj Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Segment.h">
+      <Filter>Scenes\Game\Library\Terrain\Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Buffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Text.h">
+      <Filter>Framework\Text\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DirectX 10\D10Text.h">
+      <Filter>Framework\Text\D10 Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Mouse.h">
+      <Filter>Framework\Mouse\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Windows\WinMouse.h">
+      <Filter>Framework\Mouse\Win Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Windows\WinKeyboard.h">
+      <Filter>Framework\Keyboard\Win Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Keyboard.h">
+      <Filter>Framework\Keyboard\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\AABB.h">
+      <Filter>Library\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\QuadTree.h">
+      <Filter>Library\Quad Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane.h">
+      <Filter>Math\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Camera.h">
+      <Filter>Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\D10Convert.h">
+      <Filter>Utilities\D10 Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\File.h">
+      <Filter>Framework\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\TerrainVertex.h">
+      <Filter>Scenes\Game\Library\Terrain\Terrain Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Vertex.h">
+      <Filter>Library\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Model.h">
+      <Filter>Framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Material.h">
+      <Filter>Math\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\TextureUV.h">
+      <Filter>Math\Texture UV</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Building.h">
+      <Filter>Scenes\Game\Library\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Skybox.h">
+      <Filter>Scenes\Game\Library\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\DayNightCycle.h">
+      <Filter>Scenes\Game\Library\Day Night Cycle</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Object.h">
+      <Filter>Library\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\Assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\RawImage.h">
+      <Filter>Library\Raw Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Windmill.h">
+      <Filter>Scenes\Game\Library\Windmill</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Village.h">
+      <Filter>Scenes\Game\Library\Village</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\FPCamera.h">
+      <Filter>Library\FP Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Water.h">
+      <Filter>Scenes\Game\Library\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\Bone.h">
+      <Filter>Scenes\Game\Library\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Entity.h">
+      <Filter>Library\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\Application.inl">
+      <Filter>Framework\Applications</Filter>
+    </None>
+    <None Include="Framework\Clock.inl">
+      <Filter>Framework\Clock</Filter>
+    </None>
+    <None Include="Framework\Scene.inl">
+      <Filter>Framework\Scene</Filter>
+    </None>
+    <None Include="Math\Vector2.inl">
+      <Filter>Math\Vector2</Filter>
+    </None>
+    <None Include="Math\Vector3.inl">
+      <Filter>Math\Vector3</Filter>
+    </None>
+    <None Include="Math\ViewMatrix.inl">
+      <Filter>Math\View Matrix</Filter>
+    </None>
+    <None Include="Math\WorldMatrix.inl">
+      <Filter>Math\World Matrix</Filter>
+    </None>
+    <None Include="Framework\Window.inl">
+      <Filter>Framework\Window</Filter>
+    </None>
+    <None Include="Framework\Dialog.inl">
+      <Filter>Framework\Dialog\Dialog</Filter>
+    </None>
+    <None Include="Math\Vector4.inl">
+      <Filter>Math\Vector4</Filter>
+    </None>
+    <None Include="Framework\Light.inl">
+      <Filter>Framework\Light</Filter>
+    </None>
+    <None Include="Math\Colour.inl">
+      <Filter>Math\Colour</Filter>
+    </None>
+    <None Include="Framework\DirectX 10\D10IndexBuffer.inl">
+      <Filter>Framework\Buffer\Index Buffer\D10 Index Buffer</Filter>
+    </None>
+    <None Include="Framework\DirectX 10\D10VertexBuffer.inl">
+      <Filter>Framework\Buffer\Vertex Buffer\D10 Vertex Buffer</Filter>
+    </None>
+    <None Include="Framework\DirectX 10\D10Texture.inl">
+      <Filter>Framework\Buffer\Texture\D10 Texture</Filter>
+    </None>
+    <None Include="Math\ProjMatrix.inl">
+      <Filter>Math\Proj Matrix</Filter>
+    </None>
+    <None Include="Scene\Game\Segment.inl">
+      <Filter>Scenes\Game\Library\Terrain\Segment</Filter>
+    </None>
+    <None Include="Math\Matrix.inl">
+      <Filter>Math\Matrix</Filter>
+    </None>
+    <None Include="Framework\DirectX 10\D10Text.inl">
+      <Filter>Framework\Text\D10 Text</Filter>
+    </None>
+    <None Include="Framework\Windows\WinMouse.inl">
+      <Filter>Framework\Mouse\Win Mouse</Filter>
+    </None>
+    <None Include="Library\AABB.inl">
+      <Filter>Library\AABB</Filter>
+    </None>
+    <None Include="Math\Plane.inl">
+      <Filter>Math\Plane</Filter>
+    </None>
+    <None Include="Framework\Camera.inl">
+      <Filter>Framework\Camera</Filter>
+    </None>
+    <None Include="Framework\File.inl">
+      <Filter>Framework\File</Filter>
+    </None>
+    <None Include="Scene\Game\TerrainVertex.inl">
+      <Filter>Scenes\Game\Library\Terrain\Terrain Vertex</Filter>
+    </None>
+    <None Include="Library\Model.inl">
+      <Filter>Framework\Model</Filter>
+    </None>
+    <None Include="Math\Material.inl">
+      <Filter>Math\Material</Filter>
+    </None>
+    <None Include="Math\TextureUV.inl">
+      <Filter>Math\Texture UV</Filter>
+    </None>
+    <None Include="Scene\Game\Building.inl">
+      <Filter>Scenes\Game\Library\Building</Filter>
+    </None>
+    <None Include="Scene\Game\Skybox.inl">
+      <Filter>Scenes\Game\Library\Skybox</Filter>
+    </None>
+    <None Include="Scene\Game\DayNightCycle.inl">
+      <Filter>Scenes\Game\Library\Day Night Cycle</Filter>
+    </None>
+    <None Include="Library\Object.inl">
+      <Filter>Library\Object</Filter>
+    </None>
+    <None Include="Scene\Game\Terrain.inl">
+      <Filter>Scenes\Game\Library\Terrain</Filter>
+    </None>
+    <None Include="Library\RawImage.inl">
+      <Filter>Library\Raw Image</Filter>
+    </None>
+    <None Include="Scene\Game\Windmill.inl">
+      <Filter>Scenes\Game\Library\Windmill</Filter>
+    </None>
+    <None Include="Scene\Game\Bone.inl">
+      <Filter>Scenes\Game\Library\Bone</Filter>
+    </None>
+    <None Include="Library\Entity.inl">
+      <Filter>Library\Entity</Filter>
+    </None>
+    <None Include="Framework\DirectX 10\D10Renderer.inl">
+      <Filter>Framework\Renderer\D10 Renderer</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Skybox.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Star.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Terrain.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Water.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\AABB.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Building.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\Cube.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\CubeEffectTypes.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\DayNightCycle.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\LightHelper.fx">
+      <Filter>Effect Files\Helpers</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\FogHelper.fx">
+      <Filter>Effect Files\Helpers</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\ShadowHelper.fx">
+      <Filter>Effect Files\Helpers</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\TextureHelper.fx">
+      <Filter>Effect Files\Helpers</Filter>
+    </None>
+    <None Include="..\Bin\Effect Files\TransformationHelper.fx">
+      <Filter>Effect Files\Helpers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Application.cpp">
+      <Filter>Framework\Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Clock.cpp">
+      <Filter>Framework\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Math\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Math\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ViewMatrix.cpp">
+      <Filter>Math\View Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\WorldMatrix.cpp">
+      <Filter>Math\World Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="Framework\Window.cpp">
+      <Filter>Framework\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Dialog.cpp">
+      <Filter>Framework\Dialog\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Game.cpp">
+      <Filter>Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\StrUtilities.cpp">
+      <Filter>Utilities\Str Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Messenger.cpp">
+      <Filter>Utilities\Messenger</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Math\Vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Light.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Colour.cpp">
+      <Filter>Math\Colour</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Terrain.cpp">
+      <Filter>Scenes\Game\Library\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10Effect.cpp">
+      <Filter>Framework\Effect\D10 Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10IndexBuffer.cpp">
+      <Filter>Framework\Buffer\Index Buffer\D10 Index Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10VertexBuffer.cpp">
+      <Filter>Framework\Buffer\Vertex Buffer\D10 Vertex Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10Texture.cpp">
+      <Filter>Framework\Buffer\Texture\D10 Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10Renderer.cpp">
+      <Filter>Framework\Renderer\D10 Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MathUtilities.cpp">
+      <Filter>Utilities\Math Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ProjMatrix.cpp">
+      <Filter>Math\Proj Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Segment.cpp">
+      <Filter>Scenes\Game\Library\Terrain\Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DirectX 10\D10Text.cpp">
+      <Filter>Framework\Text\D10 Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Windows\WinMouse.cpp">
+      <Filter>Framework\Mouse\Win Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Windows\WinKeyboard.cpp">
+      <Filter>Framework\Keyboard\Win Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\AABB.cpp">
+      <Filter>Library\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane.cpp">
+      <Filter>Math\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Camera.cpp">
+      <Filter>Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\D10Convert.cpp">
+      <Filter>Utilities\D10 Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\File.cpp">
+      <Filter>Framework\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\TerrainVertex.cpp">
+      <Filter>Scenes\Game\Library\Terrain\Terrain Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Model.cpp">
+      <Filter>Framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Material.cpp">
+      <Filter>Math\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\TextureUV.cpp">
+      <Filter>Math\Texture UV</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Building.cpp">
+      <Filter>Scenes\Game\Library\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Skybox.cpp">
+      <Filter>Scenes\Game\Library\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\DayNightCycle.cpp">
+      <Filter>Scenes\Game\Library\Day Night Cycle</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Object.cpp">
+      <Filter>Library\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\Assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\RawImage.cpp">
+      <Filter>Library\Raw Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Windmill.cpp">
+      <Filter>Scenes\Game\Library\Windmill</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Village.cpp">
+      <Filter>Scenes\Game\Library\Village</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\FPCamera.cpp">
+      <Filter>Library\FP Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Water.cpp">
+      <Filter>Scenes\Game\Library\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Game\Bone.cpp">
+      <Filter>Scenes\Game\Library\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Entity.cpp">
+      <Filter>Library\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The Village.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

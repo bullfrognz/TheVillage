@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines\Math.h" />
+    <ClInclude Include="Framework\Buffer.h" />
+    <ClInclude Include="Framework\Camera.h" />
+    <ClInclude Include="Framework\DirectX 10\D10Effect.h" />
+    <ClInclude Include="Framework\DirectX 10\D10IndexBuffer.h" />
+    <ClInclude Include="Framework\DirectX 10\D10Renderer.h" />
+    <ClInclude Include="Framework\DirectX 10\D10Texture.h" />
+    <ClInclude Include="Framework\DirectX 10\D10VertexBuffer.h" />
+    <ClInclude Include="Framework\DirectX 10\D10Text.h" />
+    <ClInclude Include="Framework\Effect.h" />
+    <ClInclude Include="Framework\File.h" />
+    <ClInclude Include="Framework\Keyboard.h" />
+    <ClInclude Include="Framework\Light.h" />
+    <ClInclude Include="Framework\Mouse.h" />
+    <ClInclude Include="Framework\Observer.h" />
+    <ClInclude Include="Framework\Texture.h" />
+    <ClInclude Include="Framework\Windows\WinKeyboard.h" />
+    <ClInclude Include="Framework\Windows\WinMouse.h" />
+    <ClInclude Include="Library\AABB.h" />
+    <ClInclude Include="Library\Entity.h" />
+    <ClInclude Include="Library\FPCamera.h" />
+    <ClInclude Include="Library\Model.h" />
+    <ClInclude Include="Library\Object.h" />
+    <ClInclude Include="Library\QuadTree.h" />
+    <ClInclude Include="Library\RawImage.h" />
+    <ClInclude Include="Library\Vertex.h" />
+    <ClInclude Include="Math\Colour.h" />
+    <ClInclude Include="Math\Material.h" />
+    <ClInclude Include="Math\Plane.h" />
+    <ClInclude Include="Math\ProjMatrix.h" />
+    <ClInclude Include="Math\TextureUV.h" />
+    <ClInclude Include="Math\Vector4.h" />
+    <ClInclude Include="Plugins\Assimp\code\VertexTriangleAdjacency.h" />
+    <ClInclude Include="Scene\Game\Bone.h" />
+    <ClInclude Include="Scene\Game\Building.h" />
+    <ClInclude Include="Scene\Game\DayNightCycle.h" />
+    <ClInclude Include="Scene\Game\Segment.h" />
+    <ClInclude Include="Scene\Game\Skybox.h" />
+    <ClInclude Include="Scene\Game\Terrain.h" />
+    <ClInclude Include="Defines\DataTypes.h" />
+    <ClInclude Include="Defines\Macros.h" />
+    <ClInclude Include="Framework\Application.h" />
+    <ClInclude Include="Framework\Clock.h" />
+    <ClInclude Include="Framework\Dialog.h" />
+    <ClInclude Include="Framework\DialogMsgTarget.h" />
+    <ClInclude Include="Framework\IndexBuffer.h" />
+    <ClInclude Include="Framework\Text.h" />
+    <ClInclude Include="Framework\Renderer.h" />
+    <ClInclude Include="Framework\Scene.h" />
+    <ClInclude Include="Framework\VertexBuffer.h" />
+    <ClInclude Include="Framework\Window.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\Vector2.h" />
+    <ClInclude Include="Math\Vector3.h" />
+    <ClInclude Include="Math\ViewMatrix.h" />
+    <ClInclude Include="Math\WorldMatrix.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene\Game\Game.h" />
+    <ClInclude Include="Scene\Game\TerrainVertex.h" />
+    <ClInclude Include="Scene\Game\Village.h" />
+    <ClInclude Include="Scene\Game\Water.h" />
+    <ClInclude Include="Scene\Game\Windmill.h" />
+    <ClInclude Include="Utilities\D10Convert.h" />
+    <ClInclude Include="Utilities\MathUtilities.h" />
+    <ClInclude Include="Utilities\Messenger.h" />
+    <ClInclude Include="Utilities\StrUtilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\Effect Files\AABB.fx" />
+    <None Include="..\Bin\Effect Files\Building.fx" />
+    <None Include="..\Bin\Effect Files\Cube.fx" />
+    <None Include="..\Bin\Effect Files\CubeEffectTypes.fx" />
+    <None Include="..\Bin\Effect Files\DayNightCycle.fx" />
+    <None Include="..\Bin\Effect Files\FogHelper.fx" />
+    <None Include="..\Bin\Effect Files\LightHelper.fx" />
+    <None Include="..\Bin\Effect Files\ShadowHelper.fx" />
+    <None Include="..\Bin\Effect Files\Skybox.fx" />
+    <None Include="..\Bin\Effect Files\Star.fx" />
+    <None Include="..\Bin\Effect Files\Terrain.fx" />
+    <None Include="..\Bin\Effect Files\TextureHelper.fx" />
+    <None Include="..\Bin\Effect Files\TransformationHelper.fx" />
+    <None Include="..\Bin\Effect Files\Water.fx" />
+    <None Include="Framework\Application.inl" />
+    <None Include="Framework\Camera.inl" />
+    <None Include="Framework\Clock.inl" />
+    <None Include="Framework\Dialog.inl" />
+    <None Include="Framework\DirectX 10\D10IndexBuffer.inl" />
+    <None Include="Framework\DirectX 10\D10Renderer.inl" />
+    <None Include="Framework\DirectX 10\D10Texture.inl" />
+    <None Include="Framework\DirectX 10\D10VertexBuffer.inl" />
+    <None Include="Framework\DirectX 10\D10Text.inl" />
+    <None Include="Framework\File.inl" />
+    <None Include="Framework\Light.inl" />
+    <None Include="Framework\Scene.inl" />
+    <None Include="Framework\Window.inl" />
+    <None Include="Framework\Windows\WinMouse.inl" />
+    <None Include="Library\AABB.inl" />
+    <None Include="Library\Entity.inl" />
+    <None Include="Library\Model.inl" />
+    <None Include="Library\Object.inl" />
+    <None Include="Library\RawImage.inl" />
+    <None Include="Math\Colour.inl" />
+    <None Include="Math\Material.inl" />
+    <None Include="Math\Matrix.inl" />
+    <None Include="Math\Plane.inl" />
+    <None Include="Math\ProjMatrix.inl" />
+    <None Include="Math\TextureUV.inl" />
+    <None Include="Math\Vector2.inl" />
+    <None Include="Math\Vector3.inl" />
+    <None Include="Math\Vector4.inl" />
+    <None Include="Math\ViewMatrix.inl" />
+    <None Include="Math\WorldMatrix.inl" />
+    <None Include="Scene\Game\Bone.inl" />
+    <None Include="Scene\Game\Building.inl" />
+    <None Include="Scene\Game\DayNightCycle.inl" />
+    <None Include="Scene\Game\Segment.inl" />
+    <None Include="Scene\Game\Skybox.inl" />
+    <None Include="Scene\Game\Terrain.inl" />
+    <None Include="Scene\Game\TerrainVertex.inl" />
+    <None Include="Scene\Game\Windmill.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Application.cpp" />
+    <ClCompile Include="Framework\Camera.cpp" />
+    <ClCompile Include="Framework\Clock.cpp" />
+    <ClCompile Include="Framework\Dialog.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10Effect.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10IndexBuffer.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10Renderer.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10Texture.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10VertexBuffer.cpp" />
+    <ClCompile Include="Framework\DirectX 10\D10Text.cpp" />
+    <ClCompile Include="Framework\File.cpp" />
+    <ClCompile Include="Framework\Light.cpp" />
+    <ClCompile Include="Framework\Scene.cpp" />
+    <ClCompile Include="Framework\Window.cpp" />
+    <ClCompile Include="Framework\Windows\WinKeyboard.cpp" />
+    <ClCompile Include="Framework\Windows\WinMouse.cpp" />
+    <ClCompile Include="Library\AABB.cpp" />
+    <ClCompile Include="Library\Entity.cpp" />
+    <ClCompile Include="Library\FPCamera.cpp" />
+    <ClCompile Include="Library\Model.cpp" />
+    <ClCompile Include="Library\Object.cpp" />
+    <ClCompile Include="Library\RawImage.cpp" />
+    <ClCompile Include="Math\Colour.cpp" />
+    <ClCompile Include="Math\Material.cpp" />
+    <ClCompile Include="Math\Plane.cpp" />
+    <ClCompile Include="Math\ProjMatrix.cpp" />
+    <ClCompile Include="Math\TextureUV.cpp" />
+    <ClCompile Include="Math\Vector4.cpp" />
+    <ClCompile Include="Plugins\Assimp\code\VertexTriangleAdjacency.cpp" />
+    <ClCompile Include="Scene\Game\Bone.cpp" />
+    <ClCompile Include="Scene\Game\Building.cpp" />
+    <ClCompile Include="Scene\Game\DayNightCycle.cpp" />
+    <ClCompile Include="Scene\Game\Segment.cpp" />
+    <ClCompile Include="Scene\Game\Skybox.cpp" />
+    <ClCompile Include="Scene\Game\Terrain.cpp" />
+    <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="Math\Matrix.cpp" />
+    <ClCompile Include="Math\Vector2.cpp" />
+    <ClCompile Include="Math\Vector3.cpp" />
+    <ClCompile Include="Math\ViewMatrix.cpp" />
+    <ClCompile Include="Math\WorldMatrix.cpp" />
+    <ClCompile Include="Scene\Game\Game.cpp" />
+    <ClCompile Include="Scene\Game\TerrainVertex.cpp" />
+    <ClCompile Include="Scene\Game\Village.cpp" />
+    <ClCompile Include="Scene\Game\Water.cpp" />
+    <ClCompile Include="Scene\Game\Windmill.cpp" />
+    <ClCompile Include="Utilities\D10Convert.cpp" />
+    <ClCompile Include="Utilities\MathUtilities.cpp" />
+    <ClCompile Include="Utilities\Messenger.cpp" />
+    <ClCompile Include="Utilities\StrUtilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The Village.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3923E7B8-FCB5-4E7A-857B-9A3F70424FE1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DirectX10</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(ProjectDir)\Plugins\Assimp\lib\assimp_debug-dll_win32;$(ProjectDir)\Plugins\DirectX June 2010\Lib\x86\;$(ProjectDir)\Plugins\VLD\lib\Win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\Plugins\VLD\include\;$(ProjectDir)\Plugins\DirectX June 2010\Include\;$(ProjectDir)\Plugins\Assimp\include\;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IntDir>$(SolutionDir)Build Files\Debug\</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Users\Bryce\Desktop\DirectX 10 Framework\DirectX 10\Plugins\LibPNG\include;$(ProjectDir)\Plugins\DirectX June 2010\Include;$(ProjectDir)\Plugins\Assimp\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Users\Bryce\Desktop\DirectX 10 Framework\DirectX 10\Plugins\LibPNG\lib;$(ProjectDir)\Plugins\VLD\lib\Win32;$(ProjectDir)\Plugins\DirectX June 2010\Lib\x86\;$(ProjectDir)\Plugins\Assimp\lib\assimp_release-dll_win32;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IntDir>$(SolutionDir)Build Files\Debug\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;-noboost;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(SolutionDir)Build Files\Debug\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vld.lib;assimp.lib;d3d10.lib;d3dx10d.lib;dxerr.lib;dxguid.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(SolutionDir)Build Files\Debug\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <UndefinePreprocessorDefinitions>-noboost</UndefinePreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(SolutionDir)Build Files\Release\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>assimp.lib;d3d10.lib;d3dx10.lib;dxerr.lib;dxguid.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(SolutionDir)Build Files\Release\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
